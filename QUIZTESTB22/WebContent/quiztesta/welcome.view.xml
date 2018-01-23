@@ -1,0 +1,9 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="quiztesta.welcome" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="QUIZ" id="idwelcome">
+		<content>
+		<Button text="START" press="start"/>
+	
+		</content>
+	</Page>
+</core:View>

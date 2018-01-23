@@ -1,0 +1,79 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="quiztesta.VIEW1" xmlns:html="http://www.w3.org/1999/xhtml"  xmlns:f="sap.ui.layout.form">
+	<Page title="JAVASCRIPT QUIZE">
+		<content>
+	
+	
+		<f:SimpleForm id="idSF"
+					editable="false"
+					layout="ResponsiveGridLayout"
+					title=""
+					labelSpanXL="3"
+					labelSpanL="3"
+					labelSpanM="3"
+					labelSpanS="12"
+					adjustLabelSpan="false"
+					emptySpanXL="4"
+					emptySpanL="4"
+					emptySpanM="4"
+					emptySpanS="0"
+					columnsXL="1"
+					columnsL="1"
+					columnsM="1"
+					singleContainerFullSize="false">
+					<f:content>
+						<Label text="{SNO}" />
+						<Text text="{question}" />
+						<Label text="" />
+					 <RadioButtonGroup id="idQuestionRBG" selectedIndex="-1" select="onAnswerQuestion"
+					  visible="{visible}" valueState="">
+						<buttons> 
+							<RadioButton id="RB4-1" text="{option1}"/>
+							<RadioButton id="RB4-2" text="{option2}"/>
+							 
+							 <RadioButton id="RB4-3" text="{option3}"/>
+							<RadioButton id="RB4-4" text="{option4}"/>
+						</buttons>
+					</RadioButtonGroup>
+					<VBox  id="idVbox" visible="{visible2}">
+					   <CheckBox text="{option1}" selected="false" />
+					     <CheckBox text="{option2}" selected="false"/>
+					    <CheckBox text="{option3}" selected="false" />
+						<CheckBox text="{option4}" selected="false" />
+						</VBox>
+					<Label/>
+				 <FlexBox
+					height="100px"
+					alignItems="End"
+					justifyContent="End">
+					<items> 
+				
+				<Button text="START QUIZ" press="settimer" type="Accept"/>
+				<Input  text="text"  id="idinp" width="100px"/>
+				 </items>
+				</FlexBox>	
+				 	
+				 </f:content>
+					
+				</f:SimpleForm>
+				<FlexBox
+					height="100px"
+					alignItems="Start"
+					justifyContent="Center">
+					<items>
+				
+				
+				<Button text="Previous" press="onPrevious" type="Accept"/>
+			    <Button text="Next" press="onNext" type="Accept"/>
+			    
+			   
+			</items>
+			</FlexBox>
+			 <Button text="Submit" press="Submit" type="Accept"/>
+			  <Label text="RESULT"/>
+			    <Input text="text" id="idres" width="100px"/>
+			    <Label text="Unanswered:"/>
+			    <Input text="text" id="idunAns" width="100px"/>
+			</content>
+	</Page>
+</core:View>

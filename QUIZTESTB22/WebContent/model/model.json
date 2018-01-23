@@ -1,0 +1,116 @@
+ {
+  "questions": [
+  		{
+			"SNO": "1",
+			"visible" : true,
+			"visible2" : false,
+			"question": "What does HTML stand for?",
+			"option1": "A.Hyper Text Markup Language",
+			"option2": "B.Hyperlinks and Text Markup Language",
+			"option3": "C.Home Tool Markup Language",
+			"option4": "D. Head Text Markup Language",
+			"answer": "A"
+		},
+		{
+			"SNO": "2",
+			
+			"visible" : false,
+			"visible2" : true,
+			"question": "Who is making the Web standards?",
+			"option1": "A. Mozilla",
+			"option2": "B. The World Wide Web Consortium",
+			"option3": "C. Microsoft",
+			"option4": "D. Google",
+			"answer": "B"   
+		},
+		
+		{
+			"SNO": "3",
+			"visible" : true,
+			
+			"question": "Choose the correct HTML element for the largest heading:",
+			"option1": "A. <head>",
+			"option2": "B.<h6>",
+			"option3": "C. <h1>",
+			"option4": "D. <heading>",
+			"answer": "C" 
+		},
+		{
+			"SNO": "4", 
+			
+			"visible" : false,
+			"question": "Choose the correct HTML element to define important text",
+			"option1": "A.<important>",
+			"option2": "B.<i>",
+			"option3": "C. <b>",
+			"option4": "D. <strong>",
+			"answer": "D"
+		},
+		{
+			"SNO": "5",
+			
+			"visible" : false,
+			"question": "Which character is used to indicate an end tag?",
+			"option1": "A. ^",
+			"option2": "B. *",
+			"option3": "C. <",
+			"option4": "D. /",
+			"answer": "B"
+		},
+		{
+			"SNO": "6",
+			
+			"visible" : false,
+			"question": "Which of these elements are all <table> elements?",
+			"option1": "A. <table><tr><tt>",
+			"option2": "B.<table><head><tfoot>",
+			"option3": "C. <thead><body><tr>",
+			"option4": "D. <table><tr><td>",
+			"answer": "C"
+		},
+		{
+			"SNO": "7",
+			
+			"visible" : false,
+			"question": "How can you make a numbered list?",
+			"option1": "A. <dl>",
+			"option2": "B.<ol>",
+			"option3": "C.<ul>",
+			"option4": "D.<list>",
+			"answer": "A"
+		},
+		{
+			"SNO": "8",
+			
+			"visible" : false,
+			"question": "How can you make a bulleted list?",
+			"option1": "A.  <ul>",
+			"option2": "B. <ol>",
+			"option3": "C. <list>",
+			"option4": "D.<dl>",
+			"answer": "B"
+		},
+		{
+			"SNO": "9",
+			
+			"visible" : false,
+			"question": "W Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+			"option1": "A. src",
+			"option2": "B. alt",
+			"option3": "C.title",
+			"option4": "D. longdesc",
+			"answer": "C"
+		},
+		{
+			"SNO": "10",
+			
+			"visible" : true,
+			"question": "What is the correct HTML element for playing audio files?",
+			"option1": "A.<sound>",
+			"option2": "B.  <audio>",
+			"option3": "C. <mp3>",
+			"option4": "D. none of the above",
+			"answer": "D"
+		}
+	]
+}
